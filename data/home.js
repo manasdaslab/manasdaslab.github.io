@@ -13,7 +13,7 @@
 window.HOME = {
 
   // The paragraph next to your photo. Two or three sentences reads best.
-  intro: "MANAS Lab: Multidisciplinary AI, Networking, Architecture, Systems ( allegedly ;) )",
+  intro: "MANAS Lab: Multidisciplinary AI, Networking, Architecture, Systems ?",
 
 
   /* ---------- Photo strip ----------
