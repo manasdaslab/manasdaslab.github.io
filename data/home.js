@@ -13,7 +13,7 @@
 window.HOME = {
 
   // The paragraph next to your photo. Two or three sentences reads best.
-  intro: "MANAS Lab studies [your field]. Replace this with two or three plain sentences about the questions you work on and why they matter.",
+  intro: "MANAS Lab: Multidisciplinary AI, Networking, Architecture, Systems ( allegedly ;) )",
 
 
   /* ---------- Photo strip ----------
