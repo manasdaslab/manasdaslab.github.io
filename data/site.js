@@ -28,7 +28,7 @@ window.SITE = {
   // The tabs in the left bar, in this order.
   // To add a tab, make the page first (see README.md, "Adding a new tab").
   tabs: [
-    { label: "Home", href: "home.html", page: "home" },
+    { label: "Home", href: "index.html", page: "home" },
     { label: "Research", href: "research.html", page: "research" },
     { label: "Products", href: "products.html", page: "products" },
     { label: "Teaching", href: "teaching.html", page: "teaching" },
