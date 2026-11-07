@@ -7,6 +7,8 @@
 
 /* 1. Colors, fonts and sizes ----------------------------------- */
 :root {
+  --site-version: 3;        /* don't change: lets the site notice an old saved copy of this file */
+
   --bg: #F6F8FA;            /* page background */
   --sidebar: #EAF0F4;       /* left bar (top bar on phones) */
   --surface: #FFFFFF;       /* tiles, panels, buttons */
@@ -391,7 +393,9 @@ img.ratio-fill { object-fit: cover; }
 }
 
 /* 14. Smaller screens ------------------------------------------- */
-@media (max-width: 1100px) {
+/* Research panel stacks only where the content area is narrow:
+   small laptop windows with the left bar showing, and phones */
+@media (min-width: 861px) and (max-width: 1000px), (max-width: 680px) {
   .drawer-card-split {
     grid-template-columns: minmax(0, 1fr);
     grid-template-rows: auto;
