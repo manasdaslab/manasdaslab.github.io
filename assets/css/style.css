@@ -294,13 +294,25 @@ img.ratio-fill { object-fit: cover; }
 }
 .drawer-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; margin-bottom: 18px; }
 .drawer-title { padding-top: 6px; font-size: 26px; font-weight: 600; line-height: 1.2; }
-.drawer-split { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 28px; align-items: start; }
+/* Research panel: picture or video on the left, title + close and text on the right */
+.drawer-card-split {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+  grid-template-rows: auto 1fr;
+  grid-template-areas: "media head" "media info";
+  column-gap: 28px;
+  align-items: start;
+}
+.drawer-card-split .media { grid-area: media; }
+.drawer-card-split .drawer-head { grid-area: head; }
+.drawer-card-split .drawer-info { grid-area: info; }
 .drawer-info { display: flex; flex-direction: column; gap: 14px; }
 .drawer-authors { font-size: 14px; color: var(--ink-2); }
 .drawer-authors span { font-weight: 600; color: var(--ink); }
 .drawer-actions { display: flex; flex-wrap: wrap; gap: 10px; }
-.drawer-stacked .media { border-radius: var(--radius); }
-.drawer-stacked .drawer-body { display: flex; flex-direction: column; gap: 18px; margin-top: 20px; }
+/* Products panel: big picture or video, then the overview and buttons */
+.drawer-card-stacked .media { border-radius: var(--radius); }
+.drawer-card-stacked .drawer-body { display: flex; flex-direction: column; gap: 18px; margin-top: 20px; }
 
 .prose p { max-width: 68ch; font-size: 15.5px; line-height: 1.7; color: #2E3D50; }
 .prose p + p { margin-top: 12px; }
@@ -380,7 +392,12 @@ img.ratio-fill { object-fit: cover; }
 
 /* 14. Smaller screens ------------------------------------------- */
 @media (max-width: 1100px) {
-  .drawer-split { grid-template-columns: minmax(0, 1fr); gap: 20px; }
+  .drawer-card-split {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "head" "media" "info";
+  }
+  .drawer-card-split .media { margin-bottom: 20px; }
 }
 @media (max-width: 1080px) {
   .highlights, .people-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
