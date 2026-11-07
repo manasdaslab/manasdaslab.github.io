@@ -13,6 +13,19 @@
   var reduceMotion = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
   var DUR = reduceMotion ? 0 : 320;
 
+  // If the browser is using an old saved copy of style.css, load the current one.
+  // Keep this number the same as --site-version at the top of style.css.
+  var STYLE_VERSION = '3';
+  (function freshStyles() {
+    try {
+      var v = getComputedStyle(document.documentElement).getPropertyValue('--site-version').trim();
+      if (v === STYLE_VERSION) return;
+      var link = document.querySelector('link[href*="style.css"]');
+      if (!link) return;
+      link.setAttribute('href', link.getAttribute('href').split('?')[0] + '?v=' + STYLE_VERSION);
+    } catch (e) {}
+  })();
+
   var ICON = {
     play: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor"/></svg>',
     pause: '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1" fill="currentColor"/><rect x="14" y="5" width="4" height="14" rx="1" fill="currentColor"/></svg>',
@@ -387,7 +400,7 @@
 
     function makeCard(i) {
       var it = items[i];
-      var card = el('div', 'drawer-card drawer-' + opts.layout);
+      var card = el('div', 'drawer-card drawer-card-' + opts.layout);
       var notch = el('span', 'drawer-notch');
       notch.setAttribute('aria-hidden', 'true');
       card.appendChild(notch);
@@ -409,16 +422,14 @@
         bodyBox.appendChild(actions);
         card.appendChild(bodyBox);
       } else {
-        // Research: picture or video on the left, text on the right
-        var split = el('div', 'drawer-split');
-        split.appendChild(mediaBox(it));
+        // Research: picture or video on the left; title, text and buttons on the right
+        card.appendChild(mediaBox(it));
         var info = el('div', 'drawer-info');
         if (it.text) info.appendChild(el('div', 'prose', paragraphs(it.text)));
         if (it.authors) info.appendChild(el('p', 'drawer-authors', '<span>Authors:</span> ' + fmt(it.authors)));
         (it.links || []).forEach(function (l, k) { actions.appendChild(button(l.label, l.url, k === 0 ? 'btn-primary' : 'btn-outline')); });
         if (actions.children.length) info.appendChild(actions);
-        split.appendChild(info);
-        card.appendChild(split);
+        card.appendChild(info);
       }
       return card;
     }
