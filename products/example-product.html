@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--
+    PRODUCT DETAILS PAGE (template)
+    This page isn't in the menu. It opens from a product's "Learn more" button.
+
+    To make a page for a product:
+    1. Copy this file inside the products/ folder and rename the copy,
+       e.g. products/my-tool.html (lowercase, no spaces).
+    2. Change the text below. Anything in this file is shown as written.
+    3. In data/products.js, set that product's  more: "products/my-tool.html"
+
+    Pictures for this page go in images/products/ and are written as
+    "../images/products/your-picture.jpg" (the ../ is needed because this
+    page sits one folder down).
+  -->
+  <title>Example product | MANAS Lab</title>
+  <meta name="description" content="One sentence about this product.">
+  <meta name="theme-color" content="#EAF0F4">
+  <link rel="icon" href="../images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/brands.min.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body data-page="products" data-root="..">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="layout">
+    <header class="sidebar" id="sidebar"></header>
+
+    <main class="main" id="main">
+      <div class="container" id="page">
+
+        <nav class="crumbs" aria-label="Breadcrumb">
+          <a href="../products.html">Products</a>
+          <span aria-hidden="true">/</span>
+          <span aria-current="page">Example product</span>
+        </nav>
+
+        <h1 class="page-title">Example product</h1>
+        <p class="page-intro">One line on what it is and who it's for.</p>
+
+        <div class="detail-links">
+          <a class="btn btn-primary" href="https://github.com/" target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-hidden="true"></i><span>GitHub</span></a>
+          <a class="btn btn-outline" href="https://example.com" target="_blank" rel="noopener">Documentation</a>
+          <a class="btn btn-outline" href="https://example.com" target="_blank" rel="noopener">Paper</a>
+        </div>
+
+        <!-- The big video. Paste any YouTube link into data-youtube.
+             For a picture instead, delete this line and use:
+             <img class="media-hero" src="../images/products/product-01.jpg" alt="Describe the picture"> -->
+        <div class="media media-hero" data-youtube="https://www.youtube.com/watch?v=jNQXAC9IVRw" data-title="Example product video"></div>
+
+        <section class="detail-section">
+          <h2>Overview</h2>
+          <p>The longer explanation. What problem this solves, how people use it, and what makes it different. Add as many paragraphs as you need.</p>
+          <p>A second paragraph. Each paragraph sits between &lt;p&gt; and &lt;/p&gt;.</p>
+        </section>
+
+        <section class="detail-section">
+          <div class="figure-row">
+            <figure>
+              <img src="../images/products/figure-example.jpg" alt="Describe the figure" width="1200" height="900" loading="lazy">
+              <figcaption>A short caption for the figure.</figcaption>
+            </figure>
+            <div>
+              <h2>How it works</h2>
+              <p>Explain the figure. On a computer this text sits beside the picture; on a phone it moves under it.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="detail-section">
+          <h2>Team</h2>
+          <div class="team">
+            <div class="person">
+              <span class="person-photo person-initials" aria-hidden="true">G1</span>
+              <div class="person-info">
+                <h3 class="person-name">Graduate student 1</h3>
+                <p class="person-role">Lead developer</p>
+              </div>
+            </div>
+            <div class="person">
+              <img class="person-photo" src="../images/people/person-01.jpg" alt="" width="400" height="400">
+              <div class="person-info">
+                <h3 class="person-name">Your Name</h3>
+                <p class="person-role">Principal investigator</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <a class="back-link" href="../products.html">Back to products</a>
+
+      </div>
+      <footer class="footer" id="footer"></footer>
+    </main>
+  </div>
+
+  <noscript><p class="noscript">Turn on JavaScript in your browser to see the menu.</p></noscript>
+  <script src="../data/site.js"></script>
+  <script src="../assets/js/site.js"></script>
+</body>
+</html>
