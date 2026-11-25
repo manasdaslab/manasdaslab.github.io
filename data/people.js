@@ -22,7 +22,7 @@ window.PEOPLE = {
         {
           heading: "Graduate students",
           people: [
-            { name: "Graduate student 1", photo: "images/people/person-01.jpg", role: "PhD student, since 2024", text: "Works on the first research direction.", link: "" },
+            { name: "Jayden Zebrowski", photo: "images/people/jayden.jpg", role: "Research Assistant", text: "Monitoring GPU with ebpf and kernal calls", link: "" },
             { name: "Graduate student 2", photo: "", role: "PhD student, since 2024", text: "Works on the second research direction.", link: "" },
             { name: "Graduate student 3", photo: "", role: "PhD student, since 2025", text: "", link: "" },
             { name: "Graduate student 4", photo: "", role: "MS student, since 2025", text: "Works on the third research direction.", link: "" },
