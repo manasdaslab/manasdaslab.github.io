@@ -143,7 +143,7 @@ window.RESEARCH = {
       ]
     },
   ] */
-[
+papers: [
   {
     title: "Beyond Siloed Systems: Network State Embeddings for Autonomous Networking",
     authors: "S. Timilsina, **M. J. Das**, S. Shannigrahi",
@@ -199,6 +199,6 @@ window.RESEARCH = {
     links: [
       { label: "DOI", url: "https://doi.org/10.1007/978-3-030-34872-4_6" }
     ]
-  }
+  },
 ]
 };
