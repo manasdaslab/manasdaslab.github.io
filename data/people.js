@@ -32,8 +32,8 @@ window.PEOPLE = {
           heading: "Undergraduate students",
           people: [
             { name: "Andrea Klostermann", photo: "images/people/andrea.jpg", role: "VR/MR Developer", text: "Building 3D models and VR simulation for Dental School, etc.", link: "" },
-            { name: "Jordan Jones", photo: "images/people/jones.jpg", role: "Efficient LLM model configuration, Nvidia Grace Blackwell GB10", text: "", link: "" },
-            { name: "Kushith V. Konidela", photo: "images/people/kushith.jpg", role: "Your major, 2028", text: "", link: "" },
+            { name: "Jordan Jones", photo: "images/people/jones.jpg", role: "UG Research Assistant", text: "Efficient LLM model configuration, Nvidia Grace Blackwell GB10", link: "" },
+            { name: "Kushith V. Konidela", photo: "images/people/kushith.jpg", role: "UG Research Assistant", text: "Monitoring Distributed AI models in clusters", link: "" },
           ]
         },
       ]
@@ -51,8 +51,8 @@ window.PEOPLE = {
         {
           heading: "Undergraduate",
           people: [
-            { name: "Alumnus 4", photo: "", role: "BS, 2025", text: "Now at a company or university.", link: "" },
-            { name: "Alumna 5", photo: "", role: "BS, 2024", text: "", link: "" },
+            { name: "John Doe", photo: "", role: "BS, 2027", text: "", link: "" },
+            { name: "John Doe", photo: "", role: "BS, 2027", text: "", link: "" },
           ]
         },
       ]
