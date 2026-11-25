@@ -23,19 +23,17 @@ window.PEOPLE = {
           heading: "Graduate students",
           people: [
             { name: "Jayden Zebrowski", photo: "images/people/jayden.jpg", role: "Research Assistant", text: "Monitoring GPU with ebpf and kernal calls", link: "" },
-            { name: "Reza Kashkoul", photo: "images/people/reza.jpg", role: "Master's Thesis", text: "Model quantization, medical images, MIL", link: "" },
+            { name: "Reza K. Kashkoul", photo: "images/people/reza.jpg", role: "Master's Thesis", text: "Model quantization, medical images, MIL", link: "" },
             { name: "Jacob Geisen", photo: "images/people/jacob.jpg", role: "Master's Thesis", text: "Efficient LLM model configuration, Nvidia Grace Blackwell GB10", link: "" },
-            { name: "Graduate student 4", photo: "", role: "MS student, since 2025", text: "Works on the third research direction.", link: "" },
-            { name: "Graduate student 5", photo: "", role: "MS student, since 2025", text: "", link: "" },
-            { name: "Graduate student 6", photo: "", role: "MS student, since 2026", text: "", link: "" },
+            { name: "Braden Kapp", photo: "images/people/braden.jpg", role: "VR/MR Developer", text: "Building 3D models and VR simulation for Dental School, etc.", link: "" },
           ]
         },
         {
           heading: "Undergraduate students",
           people: [
-            { name: "Undergraduate 1", photo: "", role: "Your major, 2027", text: "Project title.", link: "" },
-            { name: "Undergraduate 2", photo: "", role: "Your major, 2027", text: "", link: "" },
-            { name: "Undergraduate 3", photo: "", role: "Your major, 2028", text: "", link: "" },
+            { name: "Andrea Klostermann", photo: "images/people/andrea.jpg", role: "VR/MR Developer", text: "Building 3D models and VR simulation for Dental School, etc.", link: "" },
+            { name: "Jordan Jones", photo: "images/people/jones.jpg", role: "Efficient LLM model configuration, Nvidia Grace Blackwell GB10", text: "", link: "" },
+            { name: "Kushith V. Konidela", photo: "images/people/kushith.jpg", role: "Your major, 2028", text: "", link: "" },
           ]
         },
       ]
@@ -46,9 +44,8 @@ window.PEOPLE = {
         {
           heading: "Graduate",
           people: [
-            { name: "Alumna 1", photo: "", role: "PhD, 2025", text: "Now at a company or university.", link: "" },
-            { name: "Alumnus 2", photo: "", role: "MS, 2024", text: "Now at a company or university.", link: "" },
-            { name: "Alumna 3", photo: "", role: "MS, 2023", text: "", link: "" },
+            { name: "Killian Lelong", photo: "", role: "Master's Project", text: "Airport Resturant Recommendation Engine", link: "" },
+            { name: "Stewart Nathaniel", photo: "", role: "Master's Project", text: "Big Data Efficient Algorithm", link: "" },
           ]
         },
         {
