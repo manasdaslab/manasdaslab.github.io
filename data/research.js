@@ -144,7 +144,15 @@ window.RESEARCH = {
     },
   ] */
 papers: [
-  {
+{
+    title: "Characterizing Network Behavior of Distributed LLM Inference on a Four Node Edge Cluster",
+    authors: "**M. J. Das**",
+    venue: "Proceedings of the SC '26 Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis, 2026",
+    links: [
+      { label: "DOI(Soon)", url: "https://dl.acm.org" }
+    ]
+  },  
+{
     title: "Beyond Siloed Systems: Network State Embeddings for Autonomous Networking",
     authors: "S. Timilsina, **M. J. Das**, S. Shannigrahi",
     venue: "35th International Conference on Computer Communications and Networks (ICCCN), 2026",
