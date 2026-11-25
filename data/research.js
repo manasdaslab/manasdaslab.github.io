@@ -92,7 +92,7 @@ window.RESEARCH = {
       title: "Untitled",
       short: "In next couple of months",
       youtube: "https://www.youtube.com/watch?v=jNQXAC9IVRw",
-      image: "",
+      image: "images/research/project-02.jpg",
       text: "Still in incubation phase",
       authors: "Manas J. Das",
       links: [
