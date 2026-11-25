@@ -107,7 +107,7 @@ window.RESEARCH = {
      Put **two stars** around lab members' names to make them bold.
      links: buttons such as PDF, Code, Video. Leave [] for a paper with no links.
      A PDF you host yourself goes in files/papers/ and its url is
-     "files/papers/your-file.pdf".                                          */
+     "files/papers/your-file.pdf".                                          
   papers: [
     {
       title: "Paper title goes here",
@@ -142,5 +142,63 @@ window.RESEARCH = {
         { label: "Video", url: "https://www.youtube.com/watch?v=jNQXAC9IVRw" },
       ]
     },
-  ]
+  ] */
+[
+  {
+    title: "Beyond Siloed Systems: Network State Embeddings for Autonomous Networking",
+    authors: "S. Timilsina, **M. J. Das**, S. Shannigrahi",
+    venue: "35th International Conference on Computer Communications and Networks (ICCCN), 2026",
+    links: [
+      { label: "DOI", url: "https://doi.org/10.1109/ICCCN69946.2026.11662913" }
+    ]
+  },
+  {
+    title: "A Dataset of Network Traffic Collected During Large-Scale Human Genome Sequence Analysis",
+    authors: "**M. J. Das**, K. Shehzad, P. Rao",
+    venue: "IEEE DataPort, 2025",
+    links: [
+      { label: "DOI", url: "https://doi.org/10.21227/Y0T5-1W13" }
+    ]
+  },
+  {
+    title: "Impact of the Networking Infrastructure on the Performance of Variant Calling on Human Genomes in Commodity Clusters",
+    authors: "**M. J. Das**, P. Rao, L. Xu",
+    venue: "Proceedings of the 15th ACM International Conference on Bioinformatics, Computational Biology and Health Informatics (BCB), 2024",
+    links: [
+      { label: "DOI", url: "https://doi.org/10.1145/3698587.3701354" }
+    ]
+  },
+  {
+    title: "A Scalable Tool for Democratizing Variant Calling on Human Genomes Using Commodity Clusters",
+    authors: "K. Shehzad, A. Kumar, M. Schutz, C. Webb, P. Nalela, **M. J. Das**, P. Rao",
+    venue: "Proceedings of the 33rd ACM International Conference on Information and Knowledge Management (CIKM), 2024",
+    links: [
+      { label: "DOI", url: "https://doi.org/10.1145/3627673.3679221" }
+    ]
+  },
+  {
+    title: "Efficient Variant Calling on Human Genome Sequences Using a GPU-Enabled Commodity Cluster",
+    authors: "**M. J. Das**, K. Shehzad, P. Rao",
+    venue: "Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM), 2023",
+    links: [
+      { label: "DOI", url: "https://doi.org/10.1145/3583780.3615268" }
+    ]
+  },
+  {
+    title: "Multiscale Anisotropic Morlet Wavelet for Texture Classification of Interstitial Lung Diseases",
+    authors: "**M. J. Das**, L. B. Mahanta",
+    venue: "International Conference on Artificial Intelligence and Data Engineering (AIDE), 2019",
+    links: [
+      { label: "DOI", url: "https://doi.org/10.1007/978-981-15-3514-7_88" }
+    ]
+  },
+  {
+    title: "Design and Analysis of an Isotropic Wavelet Features-Based Classification Algorithm for Adenocarcinoma and Squamous Cell Carcinoma of Lung Histological Images",
+    authors: "**M. J. Das**, L. B. Mahanta",
+    venue: "International Conference on Pattern Recognition and Machine Intelligence (PReMI), 2019",
+    links: [
+      { label: "DOI", url: "https://doi.org/10.1007/978-3-030-34872-4_6" }
+    ]
+  }
+]
 };
