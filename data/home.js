@@ -97,7 +97,7 @@ window.HOME = {
   newsShown: 6,   // how many items show before the "Show all news" button
   news: [
     { date: "November 2026", text: "Presented paper on Network Behaviour of GB10 over RoCE with LLM Inference", link: "" },
-    { date: "November 2026", text: "The VR team visted St. Louis WildCare Park and "almost" completed the project handover", link: "" },
+    { date: "November 2026", text: "The VR team visted St. Louis WildCare Park and “almost” completed the project handover", link: "" },
     { date: "October 2026", text: "The VR team visited School of Dental", link: "" },
     { date: "October 2026", text: "Showcase: VR Dental Anatomy and in-house LLM Inference chatbot at SIU Technology & Innovation Expo"},
     { date: "September 2026", text: "Showcase: Efficiently Monitoring Massive Data Center Resources at NFS Workshop, Washington, D.C.", link: ""},
