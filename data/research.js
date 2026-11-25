@@ -31,7 +31,8 @@ window.RESEARCH = {
       short: "Preliminary results on how commodity switch behave over 8 to 405 Billion LLM model",
       youtube: "",
       image: "images/research/pic3.jpg",
-      text: "NVIDIA GB10 (DGX Spark): 128 GB Unified memory, fits on a desk. A few nodes can serve a hundreds of billion model in a lab. But how to connect them? buy the fastest fabric, use pipeline parallelism across nodes, which is standard datacenter habit. We tried to answer: For inference on a small cluster of GB10 machines connected by commodity Ethernet, what does the network actually do, and what does it actually need to be?",
+      text: [ "NVIDIA GB10 (DGX Spark): 128 GB Unified memory, fits on a desk. A few nodes can serve a hundreds of billion model in a lab. But how to connect them? buy the fastest fabric, use pipeline parallelism across nodes, which is standard datacenter habit. We tried to answer: For inference on a small cluster of GB10 machines connected by commodity Ethernet, what does the network actually do, and what does it actually need to be?",
+	"Supercomputing 2026, Chicago" ],
       authors: "**Manas J Das**",
       links: [
         { label: "GitHub", url: "https://github.com/" },
