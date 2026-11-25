@@ -27,12 +27,12 @@ window.RESEARCH = {
   projects: [
     {
       id: "project-one",
-      title: "Project one",
-      short: "One or two lines that make someone want to open it.",
-      youtube: "https://www.youtube.com/watch?v=jNQXAC9IVRw",
-      image: "",
-      text: "A paragraph explaining the research: the question, what you did, and what came out of it. Four to six lines reads well here.",
-      authors: "Author One, **Your Name**, Author Three",
+      title: "Network Behaviour of GB10 over RoCE with LLM Inference",
+      short: "Preliminary results on how commodity switch behave over 8 to 405 Billion LLM model",
+      youtube: "",
+      image: "images/research/pic3.jpg",
+      text: "NVIDIA GB10 (DGX Spark): 128 GB Unified memory, fits on a desk. A few nodes can serve a hundreds of billion model in a lab. But how to connect them? buy the fastest fabric, use pipeline parallelism across nodes, which is standard datacenter habit. We tried to answer: For inference on a small cluster of GB10 machines connected by commodity Ethernet, what does the network actually do, and what does it actually need to be?",
+      authors: "**Manas J Das**",
       links: [
         { label: "GitHub", url: "https://github.com/" },
         { label: "Project page", url: "https://example.com" },
@@ -40,15 +40,15 @@ window.RESEARCH = {
     },
     {
       id: "project-two",
-      title: "Project two",
-      short: "One or two lines that make someone want to open it.",
+      title: "Efficiently Monitoring Massive Data Center Resources",
+      short: "Bridging the Observability Gap in Distributed AI Training/Interface",
       youtube: "",
-      image: "images/research/project-02.jpg",
+      image: "images/research/pic5.jpg",
       text: [
-        "This project has a picture instead of a video, and two paragraphs.",
-        "The second paragraph starts here."
+        "Modern distributed AI training (DDP, FSDP, TP/PP) relies on synchronous communication: meaning a small stall on a single rank(node) serializes the entire cluster. Today, labs face a trade-off: hardware dashboards (DCGM) show when a GPU is idle but not why, while deep profilers (Nsight, PyTorch Profiler) explain everything but carry a prohibitive 20–40% overhead. Consequently, labs run blind, spot issues days late, and waste expensive GPU hours.",
+        "We build an always-on, cross-layer telemetry system that diagnoses the causes across hardware, framework, storage, and network layers."
       ],
-      authors: "Author One, Author Two",
+      authors: "Jayden Zebrowski, Manas J. Das",
       links: [
         { label: "Paper", url: "https://example.com" },
       ]
