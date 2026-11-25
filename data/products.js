@@ -22,7 +22,7 @@
 
 window.PRODUCTS = {
 
-  intro: "A short paragraph about what the lab builds and shares: software, hardware, datasets.",
+  intro: "Products developed for researchers, community partners, educational institution.",
 
   items: [
     {

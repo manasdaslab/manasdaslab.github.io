@@ -32,7 +32,8 @@ window.RESEARCH = {
       youtube: "",
       image: "images/research/pic3.jpg",
       text: [ "NVIDIA GB10 (DGX Spark): 128 GB Unified memory, fits on a desk. A few nodes can serve a hundreds of billion model in a lab. But how to connect them? buy the fastest fabric, use pipeline parallelism across nodes, which is standard datacenter habit. We tried to answer: For inference on a small cluster of GB10 machines connected by commodity Ethernet, what does the network actually do, and what does it actually need to be?",
-	"Supercomputing 2026, Chicago" ],
+	"Supercomputing 2026, Chicago", 
+	"This work is supported by Center for Crime Science and Violence Prevention (CCSVP)"],
       authors: "**Manas J Das**",
       links: [
         { label: "GitHub", url: "https://github.com/" },
@@ -61,7 +62,9 @@ window.RESEARCH = {
       short: "A mathematical model to model the LLM inference Decode and Prefill Step",
       youtube: "",
       image: "images/research/pic2.jpg",
-      text: "This is an ongoing research",
+      text: [ "This is an ongoing research",
+	"This work is supported by Center for Crime Science and Violence Prevention (CCSVP)"
+	],
       authors: "Manas J. Das, Jacob Geisen, Jordan Jones",
       links: []
     },
