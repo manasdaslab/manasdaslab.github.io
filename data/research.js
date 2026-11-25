@@ -47,7 +47,8 @@ window.RESEARCH = {
       image: "images/research/pic5.jpg",
       text: [
         "Modern distributed AI training (DDP, FSDP, TP/PP) relies on synchronous communication: meaning a small stall on a single rank(node) serializes the entire cluster. Today, labs face a trade-off: hardware dashboards (DCGM) show when a GPU is idle but not why, while deep profilers (Nsight, PyTorch Profiler) explain everything but carry a prohibitive 20–40% overhead. Consequently, labs run blind, spot issues days late, and waste expensive GPU hours.",
-        "We build an always-on, cross-layer telemetry system that diagnoses the causes across hardware, framework, storage, and network layers."
+        "We build an always-on, cross-layer telemetry system that diagnoses the causes across hardware, framework, storage, and network layers.",
+	"Demo: Washington, D.C."
       ],
       authors: "Jayden Zebrowski, Manas J. Das",
       links: [
@@ -56,44 +57,44 @@ window.RESEARCH = {
     },
     {
       id: "project-three",
-      title: "Project three",
-      short: "One or two lines that make someone want to open it.",
-      youtube: "https://youtu.be/jNQXAC9IVRw",
-      image: "",
-      text: "A paragraph explaining the research.",
-      authors: "Author One, Author Two, Author Three",
+      title: "An Analytical model for Distributed LLM Decoding on Edge Device",
+      short: "A mathematical model to model the LLM inference Decode and Prefill Step",
+      youtube: "",
+      image: "images/research/pic2.jpg",
+      text: "This is an ongoing research",
+      authors: "Manas J. Das, Jacob Geisen, Jordan Jones",
       links: []
     },
     {
       id: "project-four",
-      title: "Project four",
-      short: "One or two lines that make someone want to open it.",
-      youtube: "https://www.youtube.com/watch?v=jNQXAC9IVRw",
-      image: "images/research/project-04.jpg",
-      text: "This one has a video and its own thumbnail picture.",
-      authors: "Author One, Author Two",
+      title: "Impact of Quantization in Medical Images Analysis",
+      short: "Evaluating the Novelty of Low-Precision Inference in Medical Image Analysis",
+      youtube: "",
+      image: "images/research/pic4.jpg",
+      text: "This is an ongoing research",
+      authors: "Reza K. Kashkoul, Manas J. Das",
       links: [
         { label: "GitHub", url: "https://github.com/" },
       ]
     },
     {
       id: "project-five",
-      title: "Project five",
-      short: "One or two lines that make someone want to open it.",
+      title: "Multi-Objective Autonomous Network Management",
+      short: "An AI model for network management using topology and traffic flow embeddings",
       youtube: "",
-      image: "images/research/project-05.jpg",
-      text: "A paragraph explaining the research.",
-      authors: "Author One",
+      image: "images/research/pic1.jpg",
+      text: "This is an ongoing research",
+      authors: "Manas J. Das, Susmit Shannigrahi",
       links: []
     },
     {
       id: "project-six",
-      title: "Project six",
-      short: "One or two lines that make someone want to open it.",
+      title: "Untitled",
+      short: "In next couple of months",
       youtube: "https://www.youtube.com/watch?v=jNQXAC9IVRw",
       image: "",
-      text: "A paragraph explaining the research.",
-      authors: "Author One, Author Two",
+      text: "Still in incubation phase",
+      authors: "Manas J. Das",
       links: [
         { label: "Project page", url: "https://example.com" },
       ]
