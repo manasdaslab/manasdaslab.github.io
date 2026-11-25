@@ -12,41 +12,66 @@ window.TEACHING = {
 
   groups: [
     {
-      heading: "This term",
+      heading: "This term (Spring-27)",
       courses: [
         {
-          code: "COURSE 101",
-          term: "Fall 2026",
-          title: "Course title",
-          text: "Two lines on what the course covers and who it's for.",
+          code: "CS 325",
+          term: "Fall 2024 - Current",
+          title: "Software Engineering",
+          text: "Git, Container, Agile, Scrum, Testimg, UML, CI, Pattern(SOLID), etc.",
+          links: []
+        },
+       /* {
+          code: "CS 325",
+          term: "Fall 2024 - Current",
+          title: "Software Engineering",
+          text: "Two lines on what the course covers and who it's for",
           links: [
             { label: "Syllabus", url: "https://example.com" },
             { label: "Slides", url: "https://example.com" },
             { label: "Assignments", url: "https://example.com" },
           ]
-        },
+        }, */
         {
-          code: "COURSE 202",
-          term: "Fall 2026",
-          title: "Course title",
-          text: "Two lines on what the course covers and who it's for.",
-          links: [
-            { label: "Syllabus", url: "https://example.com" },
-          ]
+          code: "CS 425",
+          term: "Fall 2024 - Current",
+          title: "Software Design...",
+          text: "A two semester long capstone project that facilitates students in completing client submitted projects.",
+          links: []
         },
+	{
+          code: "CS 490",
+          term: "Spring 2027",
+          title: "Fundamentals of Data Science with AI",
+          text: "Basics of Data Science",
+          links: []	
+	
+	}
       ]
     },
     {
       heading: "Past courses",
       courses: [
         {
-          code: "COURSE 303",
+          code: "CS 499",
+          term: "Fall 2026",
+          title: "Software Implementation...",
+          text: "The second half of capstone project, it facilitates students in completing client submitted projects.",
+          links: []
+        },
+        {
+          code: "CS 490",
           term: "Spring 2026",
-          title: "Course title",
-          text: "Two lines on what the course covers.",
-          links: [
-            { label: "Materials", url: "https://example.com" },
-          ]
+          title: "Computation in Healthcare",
+          text: "Basics of AI models viz: FCNN, CNN, Transformer. Basics of genomics and genome accessibility problem.",
+          links: []
+        },
+        {
+          code: "CS 234",
+          term: "Fall 2024",
+          title: "Database and Web System Development",
+          text: "HTML, CSS, PHP, SQL",
+          links: []
         },
       ]
     },
