@@ -23,8 +23,8 @@ window.PEOPLE = {
           heading: "Graduate students",
           people: [
             { name: "Jayden Zebrowski", photo: "images/people/jayden.jpg", role: "Research Assistant", text: "Monitoring GPU with ebpf and kernal calls", link: "" },
-            { name: "Graduate student 2", photo: "", role: "PhD student, since 2024", text: "Works on the second research direction.", link: "" },
-            { name: "Graduate student 3", photo: "", role: "PhD student, since 2025", text: "", link: "" },
+            { name: "Reza Kashkoul", photo: "images/people/reza.jpg", role: "Master's Thesis", text: "Model quantization, medical images, MIL", link: "" },
+            { name: "Jacob Geisen", photo: "images/people/jacob.jpg", role: "Master's Thesis", text: "Efficient LLM model configuration, Nvidia Grace Blackwell GB10", link: "" },
             { name: "Graduate student 4", photo: "", role: "MS student, since 2025", text: "Works on the third research direction.", link: "" },
             { name: "Graduate student 5", photo: "", role: "MS student, since 2025", text: "", link: "" },
             { name: "Graduate student 6", photo: "", role: "MS student, since 2026", text: "", link: "" },
