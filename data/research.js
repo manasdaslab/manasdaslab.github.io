@@ -22,7 +22,7 @@
 
 window.RESEARCH = {
 
-  intro: "A short paragraph about the lab's research directions. Two or three sentences is plenty.",
+  intro: "We are HBMble (read humble: HBM + humble) AI researcher. Currently, we are leveraging a smaller unified memory architecture to extend our knowledge of its limitations and capabilities regarding LLM and other practical AI applications.",
 
   projects: [
     {
